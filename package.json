@@ -1,7 +1,7 @@
 {
   "name": "ids-wc-tools",
   "version": "0.0.1-beta.0",
-  "description": "(BETA) Tools to validate or Generates some minimal scaffolding for WC components or mixins",
+  "description": "(BETA) Tools to provide scaffolding and simple validation for new IDS web components and/or mixins.",
   "main": "index.js",
   "bin": {
     "ids-wc-scaffold": "./bin/scaffoldAnEntity.js"

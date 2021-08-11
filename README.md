@@ -1,6 +1,6 @@
 # Infor Design System WC Tools
 
-A simple command-line tools to scaffold the boilerplate in Web Components.
+Tools to provide scaffolding and simple validation for new IDS web components and/or mixins.
 
 ## Installation
 
