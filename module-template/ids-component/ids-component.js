@@ -12,16 +12,16 @@ import {
   IdsEventsMixin
 } from '../ids-mixins';
 
-import styles from './ids-component.scss';
+import styles from './{{ids-component}}.scss';
 
 /**
- * IDS Component
- * @type {IdsComponent}
+ * {{IDS Component}}
+ * @type {{{IdsComponent}}}
  * @inherits IdsElement
  */
- @customElement('ids-component')
+ @customElement('{{ids-component}}')
  @scss(styles)
- export default class IdsComponent extends mix(IdsElement).with(
+ export default class {{IdsComponent}} extends mix(IdsElement).with(
    IdsThemeMixin,
    IdsEventsMixin
  ) {

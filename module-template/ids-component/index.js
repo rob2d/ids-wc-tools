@@ -1,1 +1,1 @@
-export { default } from './ids-component';
+export { default } from './{{ids-component}}';

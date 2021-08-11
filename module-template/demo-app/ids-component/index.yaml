@@ -1,7 +1,7 @@
 ---
  component: {{Component}}
- link: ids-component
- description: IDS Component
+ link: {{ids-component}}
+ description: {{IDS Component}}
  category: Layouts
  keywords: todo
  examples:

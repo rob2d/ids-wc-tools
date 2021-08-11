@@ -40,7 +40,6 @@ Generates the simply runs through `/mappings` files of a given type (e.g. `/mapp
 
 
   ## TODO
-  - replace template `ids-component` (+variant) strings with `{{ids-component}}` for future-proofing.
   - add `mixins` cmd param to work with entries which can use regexp group to capture/transform;  can be done with approach similar to existing `[namespace]/replacements.js`
 
 ## Notes

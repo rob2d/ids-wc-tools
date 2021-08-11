@@ -1,4 +1,4 @@
-# Ids Component
+# {{Ids Component}}
 
 ## Description
 

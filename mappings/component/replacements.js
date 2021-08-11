@@ -15,7 +15,7 @@ module.exports = ({ namespace }) => {
 
   return [
     {
-      input: /ids-component/g,
+      input: /\{\{ids-component\}\}/g,
       replacer: () => {
         return namespace;
       }
@@ -29,19 +29,19 @@ module.exports = ({ namespace }) => {
       replacer: () => nonPrefixedNSC
     },
     {
-      input: /IdsComponent/g,
+      input: /\{\{IdsComponent\}\}/g,
       replacer: () => toPascalCase(namespace)
     },
     {
-      input: /IDSComponent/g,
+      input: /\{\{IDSComponent\}\}/g,
       replacer: () => toPascalCase(namespace).replace('Ids', 'IDS')
     },
     {
-      input: /IDS Component/g,
+      input: /\{\{IDS Component\}\}/g,
       replacer: () => toPascalCase(namespace).replace('Ids', 'IDS ')
     },
     {
-      input: /Ids Component/g,
+      input: /\{\{Ids Component\}\}/g,
       replacer: () => toPascalCase(namespace).replace('Ids', 'Ids ')
     }
   ];

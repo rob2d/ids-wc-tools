@@ -1,1 +1,1 @@
-import IdsComponent from '../../src/ids-component';
+import {{IdsComponent}} from '../../src/{{ids-component}}';
