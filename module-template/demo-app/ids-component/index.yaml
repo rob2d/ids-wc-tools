@@ -1,0 +1,9 @@
+---
+ component: {{Component}}
+ link: ids-component
+ description: IDS Component
+ category: Layouts
+ keywords: todo
+ examples:
+  - link: index.html
+    description: Shows some basic examples of {{component}}s

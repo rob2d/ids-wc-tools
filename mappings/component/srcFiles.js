@@ -20,6 +20,11 @@ module.exports = ({ namespace }) => [
     templatePath: `ids-component/README.md`
   },
   {
+    alias: 'wc-demo index.yaml',
+    targetPath: `app/${namespace}/index.yaml`,
+    templatePath: `demo-app/ids-component/index.yaml`
+  },
+  {
     alias: 'wc-demo example.html',
     targetPath: `app/${namespace}/example.html`,
     templatePath: `demo-app/ids-component/example.html`
