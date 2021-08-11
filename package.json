@@ -1,0 +1,18 @@
+{
+  "name": "ids-wc-tools",
+  "version": "0.0.1-beta.0",
+  "description": "(BETA) Tools to validate or Generates some minimal scaffolding for WC components or mixins",
+  "main": "index.js",
+  "bin": {
+    "ids-wc-scaffold": "./bin/scaffoldAnEntity.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Infor Design (IDS)",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "yargs": "^17.0.1"
+  }
+}

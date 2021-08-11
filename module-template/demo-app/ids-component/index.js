@@ -1,0 +1,1 @@
+import IdsComponent from '../../src/ids-component';
